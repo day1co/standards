@@ -3,5 +3,25 @@
 
 A base tsconfig for all typescript modules of [DAY1 COMPANY Inc.](https://day1company.co.kr)
 
+Add the package to your `"devDependencies"`:
+
+```sh
+npm install --save-dev @day1co/tsconfig
+```
+
+Add to your `tsconfig.json`:
+
+for Both Frontend and Backend:
+
+```json
+"extends": "@day1co/tsconfig/common.json"
+```
+
+for Backend:
+
+```json
+"extends": "@day1co/tsconfig/backend.json"
+```
+
 ---
 may the **SOURCE** be with you...
