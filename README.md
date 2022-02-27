@@ -23,5 +23,11 @@ for Backend:
 "extends": "@day1co/tsconfig/backend.json"
 ```
 
+for Backend using both Javascript and Typescript:
+
+```json
+"extends": "@day1co/tsconfig/backend-compat.json"
+```
+
 ---
 may the **SOURCE** be with you...
