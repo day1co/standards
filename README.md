@@ -2,6 +2,7 @@
 ----------------
 
 A base tsconfig for all typescript modules of [DAY1 COMPANY Inc.](https://day1company.co.kr)
+based on [@tsconfig bases](https://github.com/tsconfig/bases).
 
 Add the package to your `"devDependencies"`:
 
