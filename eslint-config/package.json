@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/day1co/eslint-config.git"
+    "url": "git+https://github.com/day1co/standards.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

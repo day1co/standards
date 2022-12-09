@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/day1co/tsconfig.git"
+    "url": "https://github.com/day1co/standards.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
