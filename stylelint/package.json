@@ -1,0 +1,41 @@
+{
+  "name": "@day1co/stylelint-config",
+  "version": "2.0.0",
+  "description": "stylelint config for fastcampus",
+  "main": "index.js",
+  "scripts": {
+    "test": "stylelint test.{scss,html} --config config.spec.js -f verbose",
+    "ci:test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/day1co/stylelint-config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "fast",
+    "fastcampus",
+    "stylelint-fastcampus",
+    "stylelint-config",
+    "stylelint-config-fastcampus",
+    "stylelint-order",
+    "properties-order",
+    "css property order"
+  ],
+  "author": "Jaewon Noh",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "stylelint": "^14.7.1",
+    "postcss-html": "^1.4.1",
+    "postcss-scss": "^4.0.3"
+  }
+}
