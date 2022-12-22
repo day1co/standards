@@ -1,15 +1,15 @@
-name: tsconfig-npm-publish
+name: eslint-config-npm-publish
 
 on:
   push:
     branches:
       - main
     paths:
-      - tsconfig/package.json
+      - eslint-config/package.json
 
 defaults:
   run:
-    working-directory: tsconfig
+    working-directory: eslint-config
     shell: bash
 
 jobs:
