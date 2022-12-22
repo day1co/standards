@@ -5,4 +5,5 @@
 1. [eslint](./eslint-config)
 2. [stylelint](./stylelint-config)
 3. [tsconfig](./tsconfig)
-4. [prettierrc](./prettierrc]
+4. [prettierrc](./.prettierrc)
+5. [editorconfig](./.editorconfig)
