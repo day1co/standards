@@ -3,7 +3,7 @@ name: tsconfig-npm-publish
 on:
   push:
     branches:
-      - github-action
+      - main
     paths:
       - tsconfig/package.json
 
