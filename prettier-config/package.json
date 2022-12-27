@@ -1,0 +1,17 @@
+{
+  "name": "@day1co/prettier-config",
+  "version": "0.0.1",
+  "description": "prettier config for DAY1 COMPANY Inc.",
+  "author": "DAY1 Company Inc.",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo no test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/day1co/standards.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
