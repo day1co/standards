@@ -17,34 +17,40 @@ npm install --save-dev @day1co/tsconfig @tsconfig/node-lts
 for Both Frontend and Backend:
 
 ```json
-"extends": "@day1co/tsconfig/common.json"
-"compilerOptions": {
-  "outDir": "./lib"
-},
-"include": ["./src"],
-"exclude": ["./lib", "./node_modules"]
+{
+  "extends": "@day1co/tsconfig/common.json",
+  "compilerOptions": {
+    "outDir": "./lib"
+  },
+  "include": ["./src"],
+  "exclude": ["./lib", "./node_modules"]
+}
 ```
 
 for Backend:
 
 ```json
-"extends": "@day1co/tsconfig/backend.json"
-"compilerOptions": {
-  "outDir": "./lib"
-},
-"include": ["./src"],
-"exclude": ["./lib", "./node_modules"]
+{
+  "extends": "@day1co/tsconfig/backend.json",
+  "compilerOptions": {
+    "outDir": "./lib"
+  },
+  "include": ["./src"],
+  "exclude": ["./lib", "./node_modules"]
+}
 ```
 
 for Backend using both Javascript and Typescript:
 
 ```json
-"extends": "@day1co/tsconfig/backend-mixed.json"
-"compilerOptions": {
-  "outDir": "./lib"
-},
-"include": ["./src"],
-"exclude": ["./lib", "./node_modules"]
+{
+  "extends": "@day1co/tsconfig/backend-mixed.json",
+  "compilerOptions": {
+    "outDir": "./lib"
+  },
+  "include": ["./src"],
+  "exclude": ["./lib", "./node_modules"]
+}
 ```
 
 ---
