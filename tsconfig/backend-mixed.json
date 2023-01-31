@@ -1,8 +1,8 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "@day1co/tsconfig/backend-mixed",
+  "extends": "@tsconfig/node-lts/tsconfig.json",
   "compilerOptions": {
-    "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "@day1co/tsconfig/backend-mixed",
-    "extends": "@tsconfig/node-lts/tsconfig.json",
     "noImplicitAny": false,
     "allowUnreachableCode": false,
     "noImplicitOverride": true,
