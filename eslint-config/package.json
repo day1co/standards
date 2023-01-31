@@ -1,6 +1,6 @@
 {
   "name": "@day1co/eslint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "eslint config for DAY1 COMPANY Inc.",
   "author": "DAY1 Company Inc.",
   "license": "MIT",
@@ -29,9 +29,17 @@
     "eslint-plugin-vue": "^7.17.0"
   },
   "peerDependenciesMeta": {
-    "@typescript-eslint/eslint-plugin": { "optional": true },
-    "@typescript-eslint/parser": { "optional": true },
-    "eslint-plugin-react": { "optional": true },
-    "eslint-plugin-vue": { "optional": true }
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-vue": {
+      "optional": true
+    }
   }
 }
