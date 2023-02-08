@@ -12,9 +12,10 @@ echo @day1coloso:registry=https://npm.pkg.github.com/ >> ~/.npmrc
 echo @fastlanguage:registry=https://npm.pkg.github.com/ >> ~/.npmrc
 EOF
 
+ARG PUPPETEER_SKIP_DOWNLOAD="true"
+
 ARG NODE_ENV
 ENV NODE_ENV=$NODE_ENV
-ENV PUPPETEER_SKIP_DOWNLOAD="true"
 
 RUN npm ci && \
     npm run build && \
@@ -23,7 +24,8 @@ RUN npm ci && \
 FROM node:18-alpine
 WORKDIR /app
 
-ENV PORT=8080
+ARG PORT=8080
+ENV PORT=$PORT
 EXPOSE $PORT
 
 COPY package.json  .
