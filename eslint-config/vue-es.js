@@ -10,7 +10,7 @@ module.exports = {
     parser: '@babel/eslint-parser',
   },
   extends: ['plugin:prettier/recommended', 'plugin:vue/essential', 'prettier'],
-  plugins: ['import'],
+  plugins: ['import', 'vue'],
   rules: {
     'vue/no-unused-components': 'off',
   },
