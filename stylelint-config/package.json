@@ -1,6 +1,6 @@
 {
   "name": "@day1co/stylelint-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "stylelint config for fastcampus",
   "main": "index.js",
   "scripts": {
