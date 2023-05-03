@@ -9,5 +9,6 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-namespace': 'off',
+    'import/newline-after-import': 'error',
   },
 };
