@@ -11,5 +11,6 @@ module.exports = {
     '@typescript-eslint/no-namespace': 'off',
     'import/newline-after-import': 'error',
     'no-console': ['error', { allow: ['warn'] }],
+    'eol-last': 'error',
   },
 };
