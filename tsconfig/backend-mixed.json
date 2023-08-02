@@ -1,22 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "@day1co/tsconfig/backend-mixed",
-  "extends": "@tsconfig/node-lts/tsconfig.json",
+  "extends": "common.json",
   "compilerOptions": {
     "noImplicitAny": false,
-    "allowUnreachableCode": false,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "strict": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
     "types": ["jest", "node"],
-    "declaration": true,
-    "newLine": "lf",
-    "sourceMap": true,
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "target": "es2021"
+    "allowJs": true
   }
 }
