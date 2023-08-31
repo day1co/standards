@@ -12,5 +12,17 @@ module.exports = {
     'import/newline-after-import': 'error',
     'no-console': ['error', { allow: ['warn'] }],
     'eol-last': 'error',
+    'import/order': [
+      'warn',
+      {
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+        groups: [
+          'builtin', 'external', 'internal', 'parent', 'sibling', 'object', 'index', 'type', 'unknown'
+        ]
+      },
+    ]
   },
 };
