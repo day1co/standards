@@ -3,20 +3,20 @@
   "display": "@day1co/tsconfig/backend",
   "extends": "@tsconfig/node-lts/tsconfig.json",
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
-    "strict": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "types": ["node", "jest"],
-    "declaration": true,
     "newLine": "lf",
-    "sourceMap": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "target": "es2021"
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2021",
+    "types": ["node", "jest"]
   }
 }
