@@ -17,8 +17,10 @@ $ npm install --save-dev @day1co/prettier-config prettier
 create/modify `.prettierrc.js`:
 
 ```js
-module.exports = {
-  ...require('@day1co/prettier-config'),
+import day1coPrettierConfig from '@day1co/prettier-config';
+
+export default {
+  ...day1coPrettierConfig,
 };
 ```
 
