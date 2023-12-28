@@ -6,10 +6,16 @@ prettier config for [DAY1 COMPANY Inc.](https://day1company.co.kr)
 
 ## Getting Started
 
-### install dependencies
+### install prettier 3.x
 
 ```console
-$ npm install --save-dev @day1co/prettier-config prettier
+$ npm install --save-dev @day1co/prettier-config@[1.2.x|next] prettier
+```
+
+### install prettier 2.x
+
+```console
+$ npm install --save-dev @day1co/prettier-config@[1.1.0|latest] prettier
 ```
 
 ### prepare prettier config
