@@ -25,10 +25,11 @@ module.exports = {
         pathGroups: [
           {
             pattern: '@day1co/**',
-            group: 'internal',
-            position: 'before',
+            group: 'external',
+            position: 'after',
           },
         ],
+        pathGroupsExcludedImportTypes: [], 
       },
     ]
   },
