@@ -21,7 +21,14 @@ module.exports = {
         },
         groups: [
           'builtin', 'external', 'internal', 'parent', 'sibling', 'object', 'index', 'type', 'unknown'
-        ]
+        ],
+        pathGroups: [
+          {
+            pattern: '@day1co/**',
+            group: 'internal',
+            position: 'before',
+          },
+        ],
       },
     ]
   },
