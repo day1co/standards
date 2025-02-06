@@ -1,6 +1,6 @@
 {
   "name": "@day1co/tsconfig",
-  "version": "1.3.0",
+  "version": "2.1.0",
   "author": "Day1Company",
   "license": "MIT",
   "repository": {
@@ -11,6 +11,6 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@tsconfig/node20": "~20.1.2"
+    "@tsconfig/node22": "~22.0.0"
   }
 }
