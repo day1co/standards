@@ -11,7 +11,7 @@
     "noImplicitAny": false,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
-    "module": "nodenext",
+    "module": "NodeNext",
     "moduleResolution": "node",
     "newLine": "lf",
     "sourceMap": true,
