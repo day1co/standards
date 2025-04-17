@@ -10,7 +10,7 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
-    "module": "nodenext",
+    "module": "NodeNext",
     "moduleResolution": "node",
     "newLine": "lf",
     "skipLibCheck": true,
